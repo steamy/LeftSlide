@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504393F81D2CE3EE00DC5BCB /* MessageTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504393F71D2CE3EE00DC5BCB /* MessageTableView.m */; };
+		504393FE1D2CF22A00DC5BCB /* MyPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 504393FD1D2CF22A00DC5BCB /* MyPanGestureRecognizer.m */; };
+		504394021D2DF74000DC5BCB /* RightMenuPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 504394011D2DF74000DC5BCB /* RightMenuPopoverViewController.m */; };
+		5073AE9C1D2A31C6000C3225 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AE9B1D2A31C6000C3225 /* RootViewController.m */; };
+		5073AEA21D2A420E000C3225 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEA11D2A420E000C3225 /* MainTabBarViewController.m */; };
+		5073AEA81D2A42F6000C3225 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEA71D2A42F6000C3225 /* MessageViewController.m */; };
+		5073AEAB1D2A4306000C3225 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEAA1D2A4306000C3225 /* DynamicViewController.m */; };
+		5073AEAE1D2A431D000C3225 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEAD1D2A431D000C3225 /* ContactViewController.m */; };
+		5073AEB21D2A59AE000C3225 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEB11D2A59AE000C3225 /* LeftTableViewController.m */; };
+		5073AEBF1D2A92A6000C3225 /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEBD1D2A92A6000C3225 /* UIView_extra.m */; };
+		5073AEC21D2A9382000C3225 /* LeftSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEC11D2A9382000C3225 /* LeftSliderViewController.m */; };
+		5073AEC51D2AAB2F000C3225 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEC41D2AAB2F000C3225 /* OtherViewController.m */; };
+		5073AECA1D2B6515000C3225 /* LeftTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AEC91D2B6515000C3225 /* LeftTableView.m */; };
+		5073AECD1D2B7029000C3225 /* LeftHeaderTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AECC1D2B7029000C3225 /* LeftHeaderTableView.m */; };
+		5073AED21D2B7E4B000C3225 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AED11D2B7E4B000C3225 /* UIImage+Color.m */; };
+		5073AED91D2BA9DF000C3225 /* HomePageRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5073AED81D2BA9DF000C3225 /* HomePageRootViewController.m */; };
 		50C291301D2609FC008E5350 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C2912F1D2609FC008E5350 /* main.m */; };
 		50C291331D2609FC008E5350 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C291321D2609FC008E5350 /* AppDelegate.m */; };
 		50C291361D2609FC008E5350 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C291351D2609FC008E5350 /* ViewController.m */; };
@@ -35,6 +51,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		504393F61D2CE3EE00DC5BCB /* MessageTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableView.h; sourceTree = "<group>"; };
+		504393F71D2CE3EE00DC5BCB /* MessageTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableView.m; sourceTree = "<group>"; };
+		504393FC1D2CF22A00DC5BCB /* MyPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPanGestureRecognizer.h; sourceTree = "<group>"; };
+		504393FD1D2CF22A00DC5BCB /* MyPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPanGestureRecognizer.m; sourceTree = "<group>"; };
+		504394001D2DF74000DC5BCB /* RightMenuPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuPopoverViewController.h; sourceTree = "<group>"; };
+		504394011D2DF74000DC5BCB /* RightMenuPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuPopoverViewController.m; sourceTree = "<group>"; };
+		5073AE9A1D2A31C6000C3225 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../MainController/RootViewController.h; sourceTree = "<group>"; };
+		5073AE9B1D2A31C6000C3225 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../MainController/RootViewController.m; sourceTree = "<group>"; };
+		5073AEA01D2A420E000C3225 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		5073AEA11D2A420E000C3225 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		5073AEA61D2A42F6000C3225 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		5073AEA71D2A42F6000C3225 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		5073AEA91D2A4306000C3225 /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		5073AEAA1D2A4306000C3225 /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		5073AEAC1D2A431D000C3225 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		5073AEAD1D2A431D000C3225 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		5073AEB01D2A59AE000C3225 /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		5073AEB11D2A59AE000C3225 /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		5073AEBC1D2A92A6000C3225 /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		5073AEBD1D2A92A6000C3225 /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		5073AEC01D2A9382000C3225 /* LeftSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSliderViewController.h; sourceTree = "<group>"; };
+		5073AEC11D2A9382000C3225 /* LeftSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSliderViewController.m; sourceTree = "<group>"; };
+		5073AEC31D2AAB2F000C3225 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		5073AEC41D2AAB2F000C3225 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		5073AEC81D2B6515000C3225 /* LeftTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableView.h; sourceTree = "<group>"; };
+		5073AEC91D2B6515000C3225 /* LeftTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableView.m; sourceTree = "<group>"; };
+		5073AECB1D2B7029000C3225 /* LeftHeaderTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftHeaderTableView.h; sourceTree = "<group>"; };
+		5073AECC1D2B7029000C3225 /* LeftHeaderTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftHeaderTableView.m; sourceTree = "<group>"; };
+		5073AED01D2B7E4B000C3225 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		5073AED11D2B7E4B000C3225 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		5073AED71D2BA9DF000C3225 /* HomePageRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageRootViewController.h; sourceTree = "<group>"; };
+		5073AED81D2BA9DF000C3225 /* HomePageRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageRootViewController.m; sourceTree = "<group>"; };
 		50C2912B1D2609FC008E5350 /* LeftSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeftSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C2912F1D2609FC008E5350 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		50C291311D2609FC008E5350 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +99,8 @@
 		50C2914F1D2609FC008E5350 /* LeftSlideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftSlideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C291531D2609FC008E5350 /* LeftSlideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftSlideUITests.m; sourceTree = "<group>"; };
 		50C291551D2609FC008E5350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C2916B1D260B5E008E5350 /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
+		50C2916C1D260E47008E5350 /* LeftSlide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeftSlide-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +128,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		504393F41D2CE3B200DC5BCB /* ViewInMessageController */ = {
+			isa = PBXGroup;
+			children = (
+				504393F51D2CE3DD00DC5BCB /* MessageTableView */,
+			);
+			path = ViewInMessageController;
+			sourceTree = "<group>";
+		};
+		504393F51D2CE3DD00DC5BCB /* MessageTableView */ = {
+			isa = PBXGroup;
+			children = (
+				504393F61D2CE3EE00DC5BCB /* MessageTableView.h */,
+				504393F71D2CE3EE00DC5BCB /* MessageTableView.m */,
+			);
+			path = MessageTableView;
+			sourceTree = "<group>";
+		};
+		504393FF1D2DF5B400DC5BCB /* Right_menu_popover */ = {
+			isa = PBXGroup;
+			children = (
+				504394001D2DF74000DC5BCB /* RightMenuPopoverViewController.h */,
+				504394011D2DF74000DC5BCB /* RightMenuPopoverViewController.m */,
+			);
+			path = Right_menu_popover;
+			sourceTree = "<group>";
+		};
+		5073AE991D2A31AF000C3225 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				5073AEA01D2A420E000C3225 /* MainTabBarViewController.h */,
+				5073AEA11D2A420E000C3225 /* MainTabBarViewController.m */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		5073AEA31D2A42D1000C3225 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				5073AEAC1D2A431D000C3225 /* ContactViewController.h */,
+				5073AEAD1D2A431D000C3225 /* ContactViewController.m */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		5073AEA41D2A42D1000C3225 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				5073AEA91D2A4306000C3225 /* DynamicViewController.h */,
+				5073AEAA1D2A4306000C3225 /* DynamicViewController.m */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		5073AEA51D2A42D1000C3225 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				504393FF1D2DF5B400DC5BCB /* Right_menu_popover */,
+				5073AEA61D2A42F6000C3225 /* MessageViewController.h */,
+				5073AEA71D2A42F6000C3225 /* MessageViewController.m */,
+				5073AEC31D2AAB2F000C3225 /* OtherViewController.h */,
+				5073AEC41D2AAB2F000C3225 /* OtherViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		5073AEAF1D2A5986000C3225 /* LeftTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5073AEB01D2A59AE000C3225 /* LeftTableViewController.h */,
+				5073AEB11D2A59AE000C3225 /* LeftTableViewController.m */,
+			);
+			path = LeftTableView;
+			sourceTree = "<group>";
+		};
+		5073AEB31D2A9136000C3225 /* LeftSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5073AEBC1D2A92A6000C3225 /* UIView_extra.h */,
+				5073AEBD1D2A92A6000C3225 /* UIView_extra.m */,
+				5073AEC01D2A9382000C3225 /* LeftSliderViewController.h */,
+				5073AEC11D2A9382000C3225 /* LeftSliderViewController.m */,
+				504393FC1D2CF22A00DC5BCB /* MyPanGestureRecognizer.h */,
+				504393FD1D2CF22A00DC5BCB /* MyPanGestureRecognizer.m */,
+			);
+			path = LeftSlideViewController;
+			sourceTree = "<group>";
+		};
+		5073AEC61D2B64E7000C3225 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				504393F41D2CE3B200DC5BCB /* ViewInMessageController */,
+				5073AEC71D2B6501000C3225 /* LeftTableView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5073AEC71D2B6501000C3225 /* LeftTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5073AEC81D2B6515000C3225 /* LeftTableView.h */,
+				5073AEC91D2B6515000C3225 /* LeftTableView.m */,
+				5073AECB1D2B7029000C3225 /* LeftHeaderTableView.h */,
+				5073AECC1D2B7029000C3225 /* LeftHeaderTableView.m */,
+			);
+			path = LeftTableView;
+			sourceTree = "<group>";
+		};
+		5073AECE1D2B7E26000C3225 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				5073AECF1D2B7E26000C3225 /* UIImage+Color */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		5073AECF1D2B7E26000C3225 /* UIImage+Color */ = {
+			isa = PBXGroup;
+			children = (
+				5073AED01D2B7E4B000C3225 /* UIImage+Color.h */,
+				5073AED11D2B7E4B000C3225 /* UIImage+Color.m */,
+			);
+			path = "UIImage+Color";
+			sourceTree = "<group>";
+		};
+		5073AED31D2BA958000C3225 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5073AE9A1D2A31C6000C3225 /* RootViewController.h */,
+				5073AE9B1D2A31C6000C3225 /* RootViewController.m */,
+				5073AED71D2BA9DF000C3225 /* HomePageRootViewController.h */,
+				5073AED81D2BA9DF000C3225 /* HomePageRootViewController.m */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
 		50C291221D2609FC008E5350 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +286,10 @@
 		50C2912D1D2609FC008E5350 /* LeftSlide */ = {
 			isa = PBXGroup;
 			children = (
+				5073AECE1D2B7E26000C3225 /* Tool */,
+				5073AEC61D2B64E7000C3225 /* View */,
+				50C291691D260B2B008E5350 /* Define */,
+				50C291641D260ACE008E5350 /* controller */,
 				50C291311D2609FC008E5350 /* AppDelegate.h */,
 				50C291321D2609FC008E5350 /* AppDelegate.m */,
 				50C291341D2609FC008E5350 /* ViewController.h */,
@@ -110,6 +299,7 @@
 				50C2913C1D2609FC008E5350 /* LaunchScreen.storyboard */,
 				50C2913F1D2609FC008E5350 /* Info.plist */,
 				50C2912E1D2609FC008E5350 /* Supporting Files */,
+				50C2916C1D260E47008E5350 /* LeftSlide-Prefix.pch */,
 			);
 			path = LeftSlide;
 			sourceTree = "<group>";
@@ -138,6 +328,28 @@
 				50C291551D2609FC008E5350 /* Info.plist */,
 			);
 			path = LeftSlideUITests;
+			sourceTree = "<group>";
+		};
+		50C291641D260ACE008E5350 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				5073AED31D2BA958000C3225 /* RootViewController */,
+				5073AEB31D2A9136000C3225 /* LeftSlideViewController */,
+				5073AEAF1D2A5986000C3225 /* LeftTableView */,
+				5073AEA31D2A42D1000C3225 /* Contact */,
+				5073AEA41D2A42D1000C3225 /* Dynamic */,
+				5073AEA51D2A42D1000C3225 /* Message */,
+				5073AE991D2A31AF000C3225 /* MainController */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		50C291691D260B2B008E5350 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				50C2916B1D260B5E008E5350 /* BaseHeader.h */,
+			);
+			path = Define;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +419,7 @@
 				TargetAttributes = {
 					50C2912A1D2609FC008E5350 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = R3HARN7J9X;
 					};
 					50C291431D2609FC008E5350 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -270,9 +483,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5073AED91D2BA9DF000C3225 /* HomePageRootViewController.m in Sources */,
+				5073AEBF1D2A92A6000C3225 /* UIView_extra.m in Sources */,
 				50C291361D2609FC008E5350 /* ViewController.m in Sources */,
 				50C291331D2609FC008E5350 /* AppDelegate.m in Sources */,
+				504394021D2DF74000DC5BCB /* RightMenuPopoverViewController.m in Sources */,
+				504393F81D2CE3EE00DC5BCB /* MessageTableView.m in Sources */,
 				50C291301D2609FC008E5350 /* main.m in Sources */,
+				5073AEA21D2A420E000C3225 /* MainTabBarViewController.m in Sources */,
+				5073AEAE1D2A431D000C3225 /* ContactViewController.m in Sources */,
+				5073AEB21D2A59AE000C3225 /* LeftTableViewController.m in Sources */,
+				5073AECD1D2B7029000C3225 /* LeftHeaderTableView.m in Sources */,
+				5073AE9C1D2A31C6000C3225 /* RootViewController.m in Sources */,
+				5073AEAB1D2A4306000C3225 /* DynamicViewController.m in Sources */,
+				5073AEC51D2AAB2F000C3225 /* OtherViewController.m in Sources */,
+				5073AECA1D2B6515000C3225 /* LeftTableView.m in Sources */,
+				5073AED21D2B7E4B000C3225 /* UIImage+Color.m in Sources */,
+				5073AEA81D2A42F6000C3225 /* MessageViewController.m in Sources */,
+				5073AEC21D2A9382000C3225 /* LeftSliderViewController.m in Sources */,
+				504393FE1D2CF22A00DC5BCB /* MyPanGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +639,9 @@
 		50C291591D2609FC008E5350 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeftSlide/LeftSlide-Prefix.pch";
 				INFOPLIST_FILE = LeftSlide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiteam.LeftSlide;
@@ -421,7 +652,9 @@
 		50C2915A1D2609FC008E5350 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeftSlide/LeftSlide-Prefix.pch";
 				INFOPLIST_FILE = LeftSlide/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hiteam.LeftSlide;
@@ -496,6 +729,7 @@
 				50C2915A1D2609FC008E5350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50C2915B1D2609FC008E5350 /* Build configuration list for PBXNativeTarget "LeftSlideTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +738,7 @@
 				50C2915D1D2609FC008E5350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50C2915E1D2609FC008E5350 /* Build configuration list for PBXNativeTarget "LeftSlideUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +747,7 @@
 				50C291601D2609FC008E5350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

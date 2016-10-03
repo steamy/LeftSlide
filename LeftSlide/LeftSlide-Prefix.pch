@@ -1,0 +1,17 @@
+//
+//  LeftSlide-Prefix.pch
+//  LeftSlide
+//
+//  Created by hiteam on 16/7/1.
+//  Copyright © 2016年 steam. All rights reserved.
+//
+
+#ifndef LeftSlide_Prefix_pch
+#define LeftSlide_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "BaseHeader.h"
+#import "UIImage+Color.h"
+#endif /* LeftSlide_Prefix_pch */

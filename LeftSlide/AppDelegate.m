@@ -16,7 +16,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.leftTabeViewController = [[LeftTableViewController alloc] init];
+    self.mainTabBarViewController = [[MainTabBarViewController alloc] init];
+    
+    self.leftSliderViewController = [[LeftSliderViewController alloc] initWithLeftView:self.leftTabeViewController andMainView:self.mainTabBarViewController];
+    self.window.rootViewController = self.leftSliderViewController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
